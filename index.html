@@ -1,1 +1,203 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Project Title</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --secondary: #1e293b;
+      --bg: #f8fafc;
+      --card: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--secondary);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), #1d4ed8);
+      color: white;
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: auto;
+      opacity: 0.95;
+    }
+
+    nav {
+      background: white;
+      border-bottom: 1px solid #e5e7eb;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      padding: 0.75rem;
+      gap: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--secondary);
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+      display: grid;
+      gap: 3rem;
+    }
+
+    section {
+      background: var(--card);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    section h2 {
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .badges img {
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Your Project Title</h1>
+    <p>A short, clear tagline explaining what your project does and why it matters.</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#description">Description</a></li>
+      <li><a href="#installation">Installation</a></li>
+      <li><a href="#usage">Usage</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#credits">Credits</a></li>
+      <li><a href="#license">License</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <section id="description">
+      <h2>Description</h2>
+      <p>
+        <strong>Motivation:</strong> Explain what inspired this project.<br />
+        <strong>Purpose:</strong> Why you built it and who it helps.<br />
+        <strong>Problem Solved:</strong> The real-world issue it addresses.<br />
+        <strong>What You Learned:</strong> Key technical or personal takeaways.
+      </p>
+    </section>
+
+    <section id="installation">
+      <h2>Installation</h2>
+      <ol>
+        <li>Clone the repository</li>
+        <li>Navigate to the project folder</li>
+        <li>Install dependencies</li>
+        <li>Run the development server</li>
+      </ol>
+    </section>
+
+    <section id="usage">
+      <h2>Usage</h2>
+      <p>Explain how to use the application step by step.</p>
+      <p>You can include screenshots below:</p>
+      <pre><code>![Screenshot](assets/images/screenshot.png)</code></pre>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Feature one</li>
+        <li>Feature two</li>
+        <li>Feature three</li>
+      </ul>
+    </section>
+
+    <section class="badges">
+      <h2>Badges</h2>
+      <img src="https://img.shields.io/github/languages/top/lernantino/badmath" alt="Top Language Badge" />
+    </section>
+
+    <section id="credits">
+      <h2>Credits</h2>
+      <ul>
+        <li><a href="#">Your Name</a></li>
+        <li><a href="#">Contributor Name</a></li>
+        <li><a href="#">Tutorial or Resource</a></li>
+      </ul>
+    </section>
+
+    <section id="license">
+      <h2>License</h2>
+      <p>This project is licensed under the MIT License.</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    © 2026 Your Name · Built for GitHub Projects
+  </footer>
+
+</body>
+</html>
