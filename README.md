@@ -1,6 +1,8 @@
 # Basic Website With ReadMe
 
-To view Live Website Deployment from vercel [basic-project-with-read-me.vercel.app/](basic-project-with-read-me.vercel.app).
+To view the live website deployment on Vercel:  
+[https://basic-project-with-read-me.vercel.app](https://basic-project-with-read-me.vercel.app)
+
 
 ## Description
 
